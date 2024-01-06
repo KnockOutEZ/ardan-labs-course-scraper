@@ -1,0 +1,11 @@
+{
+  "name": "ardan-labs-downloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-user-preferences": "^2.4.1"
+  }
+}
