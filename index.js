@@ -25,7 +25,7 @@ const urlTemplate = "https://courses.ardanlabs.com/courses/take/%s/lessons/%s";
   const page = await browser.newPage();
 
   // Set up a custom network condition with the given cookie
-  const cookie = "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaGJDRnNHYVFReFQyNEtTU0pDSkRKaEpERXdKR2wxUjNFeFdFczBkMHRKV1hsUFZFVlJTbmRoWVM1bU1qSXhaV0l4WXpZMk1tVXhOalJsTkRjeFptSTBabVl5T0RNd09EY3paQVk2QmtWVVNTSVhNVGN3TXpZMk5UYzRNaTQyT0RrNU56UTFCanNBUmc9PSIsImV4cCI6IjIwMjQtMDEtMTBUMDg6Mjk6NDIuNjkwWiIsInB1ciI6bnVsbH19--4290cdba4c486e448c0a557b42db75f8a52278bd";
+  const cookie = ""; // Replace this with the actual cookie
   await page.setCookie({ name: "remember_user_token", value: cookie, domain: "courses.ardanlabs.com", secure: true, path: "/" });
 
   // Read JSON file
