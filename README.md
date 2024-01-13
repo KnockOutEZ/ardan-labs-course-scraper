@@ -6,5 +6,5 @@
 - Copy the whole response and paste it in a new file in the codebase called `response.json`.
 - Create a folder named jsons.
 - Run the index.js and you should get a json file in jsons folder containing all wistia code and other metadatas from all the videos in that course.
-- Head towards [Wistia-go](https://github.com/KnockOutEZ/wisty-go) repo, clone, install it, get back to the ardan-labs-course-scraper and run `wisty-go --jsons=true`. It will look for ./jsons folder, iterate over every json in it and download all the courses, videos.
+- Head towards [wisty-go](https://github.com/KnockOutEZ/wisty-go) repo, clone, install it, get back to the ardan-labs-course-scraper and run `wisty-go --jsons=true`. It will look for ./jsons folder, iterate over every json in it and download all the courses, videos.
 - Enjoy!!
